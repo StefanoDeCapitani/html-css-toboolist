@@ -26,8 +26,8 @@
 
             <!-- Inizio sezione pulsanti per aggiunte -->
             <div class="sezione_aggiungi_tasks">
-                <button>Add Task</button>
-                <button>Add Section</button>
+                <button class="btn_aggiungi_task">Add Task</button>
+                <button class="btn_aggiungi_sezione">Add Section</button>
             </div>
             <!-- Fine sezione pulsanti per aggiunte -->
             
@@ -37,7 +37,9 @@
                 <div class="sezione_tasks new_task">
                     <details> 
                     <summary> <h2>New Task</h2> </summary>
-                        <p class="task"><span class="stato_task fatto">&check;</span>Quarterly Newsletter<span>Editorial</span></p>
+                        <ul>
+                            <li class="task"><span class="stato_task fatto">&check;</span>Quarterly Newsletter<span class="tag_categoria">Editorial</span></li>
+                        </ul>
                     </details>
                 </div>
                 <!-- Chiusura prima sezione di tasks -->
@@ -46,10 +48,12 @@
                 <div class="sezione_tasks today">
                     <details> 
                         <summary> <h2>Today</h2> </summary>
-                        <p class="task"><span class="stato_task fatto">&check;</span>Recruiting blog post<span>Editorial</span></p>
-                        <p class="task"><span class="stato_task fatto">&check;</span>Mobile app luaunch<span>Q1 Goals</span></p>
-                        <p class="task"><span class="stato_task non_fatto">&cross;</span>Interview John H.<span>Recruiting</span></p>
-                        <p class="task"><span class="stato_task fatto">&check;</span>Submit update to mobile storefonts<span>Mobile</span></p>
+                        <ul>
+                            <li class="task"><span class="stato_task fatto">&check;</span>Recruiting blog post<span class="tag_categoria">Editorial</span></li>
+                            <li class="task"><span class="stato_task fatto">&check;</span>Mobile app luaunch<span class="tag_categoria">Q1 Goals</span></li>
+                            <li class="task"><span class="stato_task non_fatto">&cross;</span class="tag_categoria">Interview John H.<span>Recruiting</span></li>
+                            <li class="task"><span class="stato_task fatto">&check;</span>Submit update to mobile storefonts<span class="tag_categoria">Mobile</span></li>
+                        </ul>
                     </details>
                 </div>
                 <!-- Chiusura seconda sezione di tasks -->
@@ -58,10 +62,12 @@
                 <div class="sezione_tasks upcoming">
                     <details> 
                         <summary> <h2>Upcoming</h2> </summary>
-                        <p class="task"><span class="stato_task non_fatto">&cross;</span>Schedule meeting with Alex</p>
-                        <p class="task"><span class="stato_task fatto">&check;</span>Homepage refresh<span>Website</span></p>
-                        <p class="task"><span class="stato_task fatto">&check;</span>Onboard new Sales team members<span>Sales</span></p>
-                        <p class="task"><span class="stato_task fatto">&check;</span>Submit update to mobile storefonts<span>Editorial</span></p>
+                        <ul>
+                            <li class="task"><span class="stato_task non_fatto">&cross;</span>Schedule meeting with Alex</li>
+                            <li class="task"><span class="stato_task fatto">&check;</span>Homepage refresh<span class="tag_categoria">Website</span></li>
+                            <li class="task"><span class="stato_task fatto">&check;</span>Onboard new Sales team members<span class="tag_categoria">Sales</span></li>
+                            <li class="task"><span class="stato_task fatto">&check;</span>Submit update to mobile storefonts<span class="tag_categoria">Editorial</span></li>
+                        </ul>
                     </details>
                 </div>
                 <!-- Chiusura terza sezione di tasks -->
