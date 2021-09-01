@@ -7,3 +7,33 @@ font-family: 'Open Sans', sans-serif; */
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    min-height: 100vh;
+}
+
+h1, h2 {
+    font-family: 'Glory', sans-serif;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+p, button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+
+
+p {
+    margin-left: 30px;
+}
+
+
