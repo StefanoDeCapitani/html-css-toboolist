@@ -20,15 +20,21 @@ h1, h2 {
 }
 
 .titolo_app {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 55px;
+    vertical-align: baseline;
+    vertical-align: 10%;
 }
 
 h2 {
     font-weight: 500;
 }
 
-p, button {
+li {
+    list-style: none;
+}
+
+li, button {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -48,13 +54,17 @@ main {
     padding: 30px 200px 20px;
 }
 
+span {
+    margin: 10px;
+}
+
 .contenitore {
     background: white; 
     border-radius: 8px; 
 }
 
 .sezione_aggiungi_tasks {
-    padding: 15px 50px;
+    padding: 15px 50px 10px;
     border-bottom: 1px solid rgb(243, 243, 243);
 }
 
@@ -63,7 +73,7 @@ main {
 }
 
 .sezione_tasks {
-    padding: 20px
+    padding: 15px 0;
 }
 
 .new_task {
@@ -74,9 +84,55 @@ main {
     padding: 10px 0;
 }
 
-span {
-    padding: 10px;
+/*---------------- Stilizzazione componenti ----------------*/
+
+
+/*BUTTONS*/
+button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 5px;
 }
+
+.btn_aggiungi_task {
+    color: white;
+    background:rgba(69,171,234,255);
+    border: none;
+}
+
+.btn_aggiungi_sezione {
+    background: transparent;
+    border: 1px solid rgb(211, 211, 211);
+    color: rgb(211, 211, 211);
+}
+
+/*TASKS*/
+
+.stato_task {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    
+    border-radius: 50%;
+}
+
+.fatto {
+    border: 1px solid rgba(110,197,176,255);
+    color: rgba(110,197,176,255);
+    padding-left: 5px;
+}
+
+.non_fatto {
+    border: 1px solid rgba(236,88,79,255);
+    color: rgba(236,88,79,255);
+    padding-left: 7px;
+}
+
+
+
+
+
+
 
 
 
