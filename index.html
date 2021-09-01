@@ -1,76 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Glory:wght@500;600;700;800&family=Open+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        
-        <title>Toboolist</title>
-    </head>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@500;600;700;800&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
-    <body>
+    <title>Toboolist</title>
+</head>
 
-        <!-- Inizio Header -->
-        <header>
-            <img src="img/Logo.png" alt="Logo Toboolist">
-            <h1>Toboolist</h1>
-        </header>
-        <!-- Fine Header -->
+<body>
 
-        <!-- Inizio Main -->
-        <main>
+    <!-- Inizio Header -->
+    <header>
+        <img class="logo_boolean" src="img/Logo.png" alt="Logo Toboolist">
+        <h1 class="titolo_app">Toboolist</h1>
+    </header>
+    <!-- Fine Header -->
 
-            <!-- Apertura contenitore to-do list -->
-            <div class="contenitore">
+    <!-- Inizio Main -->
+    <main>
 
-                <!-- Inizio sezione pulsanti per aggiunte -->
-                <header>
-                    <button>Add Task</button>
-                    <button>Add Section</button>
-                </header>
-                <!-- Fine sezione pulsanti per aggiunte -->
+        <!-- Apertura contenitore to-do list -->
+        <div class="contenitore">
 
-                <!-- Inizio Tasks -->
+            <!-- Inizio sezione pulsanti per aggiunte -->
+            <div class="sezione_aggiungi_tasks">
+                <button>Add Task</button>
+                <button>Add Section</button>
+            </div>
+            <!-- Fine sezione pulsanti per aggiunte -->
+            
+            <!-- Inizio Tasks -->
+            <div class="contenitore_sezioni_tasks">
                 <!-- Apertura prima sezione di tasks -->
-                <div>
+                <div class="sezione_tasks new_task">
                     <details> 
-                       <summary> <h2>New Task</h2> </summary>
-                        <p><span>&check;</span> Quarterly Newsletter <span>Editorial</span></p>
+                    <summary> <h2>New Task</h2> </summary>
+                        <p class="task"><span class="stato_task fatto">&check;</span>Quarterly Newsletter<span>Editorial</span></p>
                     </details>
                 </div>
                 <!-- Chiusura prima sezione di tasks -->
 
                 <!-- Apertura seconda sezione di tasks -->
-                <div>
+                <div class="sezione_tasks today">
                     <details> 
                         <summary> <h2>Today</h2> </summary>
-                        <p><span>&check;</span>Recruiting blog post <span>Editorial</span></p>
-                        <p><span>&check;</span>Mobile app luaunch <span>Q1 Goals</span></p>
-                        <p><span>&cross;</span>Interview John H. <span>Recruiting</span></p>
-                        <p><span>&check;</span>Submit update to mobile storefonts <span>Mobile</span></p>
+                        <p class="task"><span class="stato_task fatto">&check;</span>Recruiting blog post<span>Editorial</span></p>
+                        <p class="task"><span class="stato_task fatto">&check;</span>Mobile app luaunch<span>Q1 Goals</span></p>
+                        <p class="task"><span class="stato_task non_fatto">&cross;</span>Interview John H.<span>Recruiting</span></p>
+                        <p class="task"><span class="stato_task fatto">&check;</span>Submit update to mobile storefonts<span>Mobile</span></p>
                     </details>
                 </div>
                 <!-- Chiusura seconda sezione di tasks -->
 
                 <!-- Apertura terza sezione di tasks -->
-                <div>
+                <div class="sezione_tasks upcoming">
                     <details> 
                         <summary> <h2>Upcoming</h2> </summary>
-                        <p><span>&cross;</span>Schedule meeting with Alex</p>
-                        <p><span>&check;</span>Homepage refresh <span>Website</span></p>
-                        <p><span>&check;</span>Onboard new Sales team members <span>Sales</span></p>
-                        <p><span>&check;</span>Submit update to mobile storefonts <span>Editorial</span></p>
+                        <p class="task"><span class="stato_task non_fatto">&cross;</span>Schedule meeting with Alex</p>
+                        <p class="task"><span class="stato_task fatto">&check;</span>Homepage refresh<span>Website</span></p>
+                        <p class="task"><span class="stato_task fatto">&check;</span>Onboard new Sales team members<span>Sales</span></p>
+                        <p class="task"><span class="stato_task fatto">&check;</span>Submit update to mobile storefonts<span>Editorial</span></p>
                     </details>
                 </div>
                 <!-- Chiusura terza sezione di tasks -->
-                <!-- Fine Tasks -->
-
             </div>
-            <!-- Chiusura contenitore to-do list -->
+            <!-- Fine Tasks -->
 
-        </main>
-        <!-- Fine Main -->
+        </div>
+        <!-- Chiusura contenitore to-do list -->
 
-    </body>
+    </main>
+    <!-- Fine Main -->
+
+</body>
 </html>
