@@ -1,5 +1,17 @@
-/* font-family: 'Glory', sans-serif;
-font-family: 'Open Sans', sans-serif; */
+/*===========================
+Sommario: 
+1. Reset
+2. Tipografia
+3. Layout
+4. Stilizzazione componenti
+    - BUTTONS
+    - TASKS:
+        a. Stato del task
+        b. Tag categoria
+===========================*/
+
+
+/*--------- 1. Reset ---------*/
 *,
 *::before,
 *::after{
@@ -8,7 +20,7 @@ font-family: 'Open Sans', sans-serif; */
     box-sizing: border-box;
 }
 
-/*--------- Tipografia ---------*/
+/*--------- 2. Tipografia ---------*/
 
 body {
     min-height: 100vh;
@@ -42,7 +54,7 @@ button {
     font-weight: 600;
 }
 
-/*-------------- Layout --------------*/
+/*-------------- 3. Layout --------------*/
 
 body {
     min-height: 100vh;
@@ -96,7 +108,7 @@ main {
     padding-bottom: 0;
 }
 
-/*--------- Stilizzazione componenti --------*/
+/*--------- 4. Stilizzazione componenti --------*/
 
 
 /*BUTTONS*/
