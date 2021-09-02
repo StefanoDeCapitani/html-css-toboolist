@@ -34,7 +34,6 @@ h2 {
 .titolo_app {
   font-weight: 700;
   font-size: 40px;
-  vertical-align: 25%; /*Allineamento verticale della scritta rispetto a .logo_boolean*/
   margin-left: 5px;
 }
 
@@ -65,6 +64,11 @@ body {
 header {
   padding: 10px 0 10px 30px;
   background: white;
+}
+
+.logo_boolean,
+.titolo_app {
+  vertical-align: middle;
 }
 
 .contenitore {
