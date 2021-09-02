@@ -34,7 +34,6 @@ h2 {
 .titolo_app {
   font-weight: 700;
   font-size: 40px;
-  margin-left: 5px;
 }
 
 h2 {
@@ -69,6 +68,10 @@ header {
 .logo_boolean,
 .titolo_app {
   vertical-align: middle;
+}
+
+.titolo_app {
+  margin-left: 5px;
 }
 
 .contenitore {
